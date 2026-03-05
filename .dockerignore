@@ -1,0 +1,28 @@
+# Ignore everything by default, then whitelist what we need
+*
+
+# Whitelist only what's actually needed
+/bot.py
+/requirements.txt
+/Dockerfile
+
+# Common ignores (prevents sending junk)
+.git
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.log
+node_modules/
+dist/
+build/
+*.zip
+*.rar
+*.7z
+*.db  # optional: ignore existing db if you use volume anyway
+*.json  # optional: ignore afk_data if you want fresh start (volume will persist new one)
