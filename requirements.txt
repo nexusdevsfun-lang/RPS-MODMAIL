@@ -1,0 +1,7 @@
+discord.py==2.4.0
+aiosqlite==0.20.0
+# If you add aiohttp back (for Roblox API in future verify command)
+# aiohttp==3.10.5
+
+# If you want better logging or uptime monitoring
+# python-dotenv==1.0.1
